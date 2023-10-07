@@ -1,0 +1,82 @@
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    border: none;
+    text-transform: capitalize;
+}
+
+.navbar{
+    background-color: whitesmoke;
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+nav img{
+    width: 100px;
+}
+
+.navbar-brand span{
+    letter-spacing: 2px;
+}
+
+
+.nav-item{
+    margin-right: 80px; 
+    display: inline; 
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+nav ul li a {
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none; 
+    color:rgb(110, 109, 109); 
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+header .icons a{
+    font-size: 18px;
+    color: rgb(110, 109, 109);
+    margin-left: 20px;
+}
+
+header .icons a:hover{
+    color: black;
+}
+
+.logo{
+    width: 95px;
+    object-fit: contain;
+}
+
+
+#header{
+    background-image: url(../2nd-page.jpg) top/cover no-repeat;
+}
+
+#offers{
+    background: url(../women.jpg);
+}
+
+.contact{
+    text-align: center;
+}
+.contact h5{
+    margin-top: 100px;
+    font-size: 18px;
+    background-color: rgb(183, 183, 183);
+}
+
+.contact .icons a{
+    color: rgb(79, 79, 79);
+    padding-left: 18px;
+    font-size: 28px;
+    margin-bottom: 40px;
+    
+}
