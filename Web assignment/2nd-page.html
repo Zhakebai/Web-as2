@@ -64,174 +64,184 @@
             </div>
         </nav>
 
-        <header id = "header" class = "vh-100 carousel slide" data-bs-ride = "carousel"  style="padding-top: 110px;">
-            <div class="container h-100 d-flex align-items-center carousel-inner"">
-                <div class="text-center carousel-item active">
-                    <h1>The hit of the season!</h1>
-                    <a href="#" class="btn mt-3 text-uppercase">shop now</a>
+       <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 350px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container h-100 d-flex align-items-center text-align-center">
+                        <div class="text-center w-100">
+                            <h1 class="text-capitalize">The hit of the season!</h1>
+                            <a href="#" class="btn mt-3 text-uppercase">shop now</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="carousel-item">
+                    <div class="container h-100 d-flex align-items-center">
+                        <div class="text-center w-100">
+                            <h1 class="text-capitalize">Best price & offer</h1>
+                            <a href="#" class="btn mt-3 text-uppercase">buy now</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class = "text-center carousel-item">
-                <h2 class = "text-capitalize text-white">best price & offer</h2>
-                <h1 class = "text-uppercase py-2 fw-bold text-white">new season</h1>
-                <a href = "#" class = "btn mt-3 text-uppercase">buy now</a>
-            </div>
-        </div>
-
-        <button class = "carousel-control-prev" type = "button" data-bs-target="#header" data-bs-slide = "prev">
-            <span class = "carousel-control-prev-icon"></span>
-        </button>
-        <button class = "carousel-control-next" type = "button" data-bs-target="#header" data-bs-slide = "next">
-            <span class = "carousel-control-next-icon"></span>
-        </button>
-
+        
+            <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </header>
 
-        <section class="clothes">
+        <section id="collection" class="clothes py-5" >
             <div class = "title text-center">
                 <h2 class = "position-relative d-inline-block">New Collection</h2>
             </div>
-            <div class = "d-flex flex-wrap justify-content-center mt-5 filter-button-group">
-                <button type = "button" class = "btn m-2 text-dark active-filter-btn" data-filter = "*">All</button>
-                <button type = "button" class = "btn m-2 text-dark" data-filter = ".best">Best Sellers</button>
-                <button type = "button" class = "btn m-2 text-dark" data-filter = ".feat">Featured</button>
-                <button type = "button" class = "btn m-2 text-dark" data-filter = ".new">New Arrival</button>
+            <div class = "title text-center">
+                <h4 class = "position-relative">Be trendy</h4>
             </div>
 
-            <div class="container">
+            <div class="container" style="margin-top: 50px;">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class=" col-md-4 py-3 py-md-0 ">
                         <div class="card">
-                            <img src="men3.jpg" class="card-img-top" alt="Coat">
-                            <div class="card-body">
-                                <h3 class="card-title">Coat</h3>
-                                <div class="price">$109.90</div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="#" class="btn btn-outline-danger"><i class="fas fa-heart"></i></a>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                    <a href="#" class="btn btn-outline-secondary"><i class="fas fa-share"></i></a>
+                            <div class="card-body text-center align-items-center">
+                                <img src="men3.jpg" class="card-img-top  fixed-size-image" alt="Coat">
+                                <div class="overlay">
+                                    <button type="button" class="btn btn-secondary" title="Cart-add"><i class="bx bx-cart-add"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="heart"><i class="bx bx-heart"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="Share"><i class="bx bx-share-alt"></i> </button>
                                 </div>
+                                <h3 class="card-title text-center">Coat</h3>
+                                <div class="price text-center">$109.90</div>
                             </div>
                         </div>
                     </div>
         
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="men5.jpg" class="card-img-top" alt="Coat">
-                            <div class="card-body">
+                    <div class=" col-md-4 py-3 py-md-0 ">
+                        <div class="card ">
+                            <div class="card-body text-center align-items-center">
+                                <img src="men5.jpg" class="card-img-top  fixed-size-image" alt="Coat">
+                                <div class="overlay">
+                                    <button type="button" class="btn btn-secondary" title="Cart-add"><i class="bx bx-cart-add"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="heart"><i class="bx bx-heart"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="Share"><i class="bx bx-share-alt"></i> </button>
+                                </div>
                                 <h3 class="card-title">Backpack</h3>
                                 <div class="price">$39.90</div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="#" class="btn btn-outline-danger"><i class="fas fa-heart"></i></a>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                    <a href="#" class="btn btn-outline-secondary"><i class="fas fa-share"></i></a>
-                                </div>
+                                 
                             </div>
                         </div>
                     </div>
         
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="men6.jpg" class="card-img-top" alt="Coat">
-                            <div class="card-body">
+                    <div class=" col-md-4 py-3 py-md-0">
+                        <div class="card ">
+                            <div class="card-body text-center align-items-center">
+                                <img src="men6.jpg" class="card-img-top fixed-size-image" alt="Coat">
+                                <div class="overlay">
+                                    <button type="button" class="btn btn-secondary" title="Cart-add"><i class="bx bx-cart-add"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="heart"><i class="bx bx-heart"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="Share"><i class="bx bx-share-alt"></i> </button>
+                                </div>
                                 <h3 class="card-title">Jacket</h3>
                                 <div class="price">$49.90</div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="#" class="btn btn-outline-danger"><i class="fas fa-heart"></i></a>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                    <a href="#" class="btn btn-outline-secondary"><i class="fas fa-share"></i></a>
-                                </div>
+                                 
                             </div>
                         </div>
                     </div>
         
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="men7.jpg" class="card-img-top" alt="Coat">
-                            <div class="card-body">
+                    <div class=" col-md-4 py-3 py-md-0">
+                        <div class="card ">
+                            <div class="card-body text-center align-items-center">
+                                <img src="men7.jpg" class="card-img-top fixed-size-image" alt="Coat">
+                                <div class="overlay">
+                                    <button type="button" class="btn btn-secondary" title="Cart-add"><i class="bx bx-cart-add"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="heart"><i class="bx bx-heart"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="Share"><i class="bx bx-share-alt"></i> </button>
+                                </div>
                                 <h3 class="card-title">Jacket</h3>
                                 <div class="price">$49.90</div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="#" class="btn btn-outline-danger"><i class="fas fa-heart"></i></a>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                    <a href="#" class="btn btn-outline-secondary"><i class="fas fa-share"></i></a>
-                                </div>
+                                 
                             </div>
                         </div>
                     </div>
         
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="men8.jpg" class="card-img-top" alt="Coat">
-                            <div class="card-body">
+                    <div class=" col-md-4 py-3 py-md-0">
+                        <div class="card ">
+                            <div class="card-body text-center align-items-center">
+                                <img src="men8.jpg" class="card-img-top fixed-size-image" alt="Coat">
+                                <div class="overlay">
+                                    <button type="button" class="btn btn-secondary" title="Cart-add"><i class="bx bx-cart-add"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="heart"><i class="bx bx-heart"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="Share"><i class="bx bx-share-alt"></i> </button>
+                                </div>
                                 <h3 class="card-title">Jeans</h3>
                                 <div class="price">$25.90</div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="#" class="btn btn-outline-danger"><i class="fas fa-heart"></i></a>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                    <a href="#" class="btn btn-outline-secondary"><i class="fas fa-share"></i></a>
-                                </div>
+                                 
                             </div>
                         </div>
                     </div>
         
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="men9.jpg" class="card-img-top" alt="Coat">
-                            <div class="card-body">
+                    <div class=" col-md-4 py-3 py-md-0">
+                        <div class="card ">
+                            <div class="card-body text-center align-items-center">
+                                <img src="men9.jpg" class="card-img-top fixed-size-image" alt="Coat">
+                                <div class="overlay">
+                                    <button type="button" class="btn btn-secondary" title="Cart-add"><i class="bx bx-cart-add"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="heart"><i class="bx bx-heart"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="Share"><i class="bx bx-share-alt"></i> </button>
+                                </div>
                                 <h3 class="card-title">White shoes</h3>
                                 <div class="price">$61.90</div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="#" class="btn btn-outline-danger"><i class="fas fa-heart"></i></a>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                    <a href="#" class="btn btn-outline-secondary"><i class="fas fa-share"></i></a>
-                                </div>
+                                 
                             </div>
                         </div>
                     </div>
         
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="men12.jpg" class="card-img-top" alt="Coat">
-                            <div class="card-body">
+                    <div class=" col-md-4 py-3 py-md-0">
+                        <div class="card ">
+                            <div class="card-body text-center align-items-center">
+                                <img src="men12.jpg" class="card-img-top fixed-size-image" alt="Coat">
+                                <div class="overlay">
+                                    <button type="button" class="btn btn-secondary" title="Cart-add"><i class="bx bx-cart-add"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="heart"><i class="bx bx-heart"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="Share"><i class="bx bx-share-alt"></i> </button>
+                                </div>
                                 <h3 class="card-title">Trouser</h3>
                                 <div class="price">$23.90</div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="#" class="btn btn-outline-danger"><i class="fas fa-heart"></i></a>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                    <a href="#" class="btn btn-outline-secondary"><i class="fas fa-share"></i></a>
-                                </div>
+                                 
                             </div>
                         </div>
                     </div>
         
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="men10.jpg" class="card-img-top" alt="Coat">
-                            <div class="card-body">
+                    <div class=" col-md-4 py-3 py-md-0">
+                        <div class="card  ">
+                            <div class="card-body text-center align-items-center">
+                                <img src="men10.jpg" class="card-img-top fixed-size-image" alt="Coat">
+                                <div class="overlay">
+                                    <button type="button" class="btn btn-secondary" title="Cart-add"><i class="bx bx-cart-add"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="heart"><i class="bx bx-heart"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="Share"><i class="bx bx-share-alt"></i> </button>
+                                </div>
                                 <h3 class="card-title">Shirt</h3>
                                 <div class="price">$24.90</div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="#" class="btn btn-outline-danger"><i class="fas fa-heart"></i></a>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                    <a href="#" class="btn btn-outline-secondary"><i class="fas fa-share"></i></a>
-                                </div>
+                                 
                             </div>
                         </div>
                     </div>
         
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="men11.jpg" class="card-img-top" alt="Coat">
-                            <div class="card-body">
+                    <div class=" col-md-4 py-3 py-md-0">
+                        <div class="card ">
+                            <div class="card-body text-center align-items-center text-center align-items-center">
+                                <img src="men11.jpg" class="card-img-top fixed-size-image" alt="Coat">
+                                <div class="overlay">
+                                    <button type="button" class="btn btn-secondary" title="Cart-add"><i class="bx bx-cart-add"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="heart"><i class="bx bx-heart"></i> </button>
+                                    <button type="button" class="btn btn-secondary" title="Share"><i class="bx bx-share-alt"></i> </button>
+                                </div>
                                 <h3 class="card-title">Knitted hat</h3>
                                 <div class="price">$21.90</div>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <a href="#" class="btn btn-outline-danger"><i class="fas fa-heart"></i></a>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                    <a href="#" class="btn btn-outline-secondary"><i class="fas fa-share"></i></a>
-                                </div>
+                                 
                             </div>
                         </div>
                     </div>
