@@ -8,7 +8,7 @@
 }
 
 .navbar{
-    background-color: whitesmoke;
+    background-color: aliceblue;
     box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -20,9 +20,9 @@ nav img{
     letter-spacing: 2px;
 }
 
-
 .nav-item{
-    margin-right: 80px; 
+    margin-right: 40px; 
+    margin-left: 40px;
     display: inline; 
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
     text-align: center;
@@ -40,15 +40,6 @@ nav ul li a:hover{
     color: black;
 }
 
-header .icons a{
-    font-size: 18px;
-    color: rgb(110, 109, 109);
-    margin-left: 20px;
-}
-
-header .icons a:hover{
-    color: black;
-}
 
 .logo{
     width: 95px;
@@ -69,7 +60,8 @@ header .btn:not(.nav-btns button):hover{
 }
 
 #header{
-    background-image: url("header.webp") top/cover no-repeat;
+    background: url("header.webp") top/cover no-repeat;
+    margin-top: 90px;
 }
 
 #header h1{
@@ -143,14 +135,14 @@ width: 70px;
     margin-bottom: 18px;
 }
 
-
 .contact{
     text-align: center;
 }
 .contact h5{
     margin-top: 100px;
-    font-size: 18px;
-    background-color: rgb(183, 183, 183);
+    font-size: 20px;
+    padding: 15px;
+    background-color: rgb(222, 239, 254);
 }
 
 .contact .icons a{
@@ -158,5 +150,55 @@ width: 70px;
     padding-left: 18px;
     font-size: 28px;
     margin-bottom: 40px;
-    
+}
+
+#footer{
+    background-color: aliceblue;
+    padding-top: 40px;
+}
+
+#footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.logo a span{
+    font-weight: 200;
+}
+
+
+#footer .col{
+    flex-basis: 230px;
+}
+
+
+.links{
+    list-style: none;
+}
+
+
+.link a{
+    display: flex;
+    column-gap: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.copyright{
+    text-align: center;
+    padding: 40px;
+    border-top: 2px solid gray;
+}
+
+.copyright span{
+    font-weight: bold;
 }
